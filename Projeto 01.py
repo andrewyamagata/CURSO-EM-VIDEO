@@ -15,3 +15,10 @@ print('É alfabético? ',a.isalpha())
 print('É numérico? ', a.isnumeric())
 print('Está em maiúsculas? ', a.isupper())
 print('Está em minúsculas? ', a.islower())
+# + adição
+# - subtração
+# * mutiplicação
+# / divisão
+# ** potência
+# // divisão inteira
+# % resto da divisão

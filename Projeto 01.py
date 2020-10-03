@@ -39,7 +39,7 @@ e = n1 ** n2
 print('A soma vale {}'.format(n1+n2))
 print('A soma vale {}, o produto vale {}, e a divisão vale {:.3f}'.format(s,m,d)) #3 casas decimais
 print('Divisão inteira {} e potência {}'.format(di,e))
-print('A soma vale {}, o produto vale {}, e a divisão vale {:.3f}'.format(s,m,d), end=' ')#end=' ' não quebrar linha
+print('A soma vale {}, o produto vale {}, e a divisão vale {:.3f}'.format(s,m,d), end=' ')#end=' ' não quebrar linha, colocar dentro da aspas
 print('Divisão inteira {} e potência {}'.format(di,e))
 print('A soma vale {}, \n o produto vale {}, \n e a divisão vale {:.3f}'.format(s,m,d)) #\n quebra linha
 print('Divisão inteira {} e potência {}'.format(di,e))

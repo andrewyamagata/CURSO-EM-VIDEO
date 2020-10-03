@@ -12,5 +12,3 @@ print('O aluno escolhido foi {}!'.format(escolha))
 random.shuffle(lista)
 print('A ordem será:')
 print(lista)
-
-# Colocar música mp3

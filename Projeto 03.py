@@ -20,6 +20,8 @@ print('A raiz de {} é {:.2f}!'.format(num, (raiz)))
 import random
 nrandom = random.randint(1,60)
 print(nrandom)
-
+'''from random import randint
+nrandom = randint(1,60)      => não colocar random, já importou randint
+print(nrandom)'''
 #pypi módulos externos
 # Settings -> Project: Python -> Python Interpreter -> +

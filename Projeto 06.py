@@ -14,3 +14,9 @@ print(frase[9:21:2])
 #[15:] Vai do 15 até o Final = Python
 
 #[9::3] Vai do 9 até o final, de 3 em 3 = VePh
+
+#len(frase) qual o comprimento da frase, quantidade de caracteres = 21 caracteres
+
+frase.count('o'), mostra 3
+frase.count('o',0,13), conta quantos 'o', do 0 até 12
+frase.find('deo'), posição 11

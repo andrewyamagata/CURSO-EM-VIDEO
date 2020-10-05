@@ -9,3 +9,8 @@ print(frase[9:21])
 print(frase[9:21:2])
 #[9:21:2] começa no 9 e para no 21, pulando de 2 em 2 = VdoPto
 
+#[:5] Vai do 0 até 4 = Curso
+
+#[15:] Vai do 15 até o Final = Python
+
+#[9::3] Vai do 9 até o final, de 3 em 3 = VePh

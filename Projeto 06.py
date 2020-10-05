@@ -20,3 +20,6 @@ print(frase[9:21:2])
 #frase.count('o'), mostra quantos 'o' tem = 3
 #frase.count('o',0,13), conta quantos 'o', do 0 até 12 = 1
 #frase.find('deo'), onde tem 'deo' = posição 11
+#frase.find('Android'), não foi encontrado = -1
+#'Curso' in frase => True
+#frase.replace('Python','Android'), substitui Python em Android

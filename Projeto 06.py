@@ -23,3 +23,6 @@ print(frase[9:21:2])
 #frase.find('Android'), não foi encontrado = -1
 #'Curso' in frase => True
 #frase.replace('Python','Android'), substitui Python em Android
+#frase.upper() Deixar em Maiúsculo
+#frase.lower() Deixar em Minúsculo
+#frase.capitalize() Deixar a primeira em maiúsculo e o resto em minúsculo

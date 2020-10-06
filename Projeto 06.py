@@ -40,7 +40,7 @@ print('Curso' in frase)
 #'Curso' in frase => True
 
 print(frase.replace('Python','Android'))
-#frase.replace('Python','Android'), substitui Python em Android
+#frase.replace('Python','Android'), substitui Python em Android, string não muda, somente se for atribuido * frase = frase.replace('','')*
 
 print(frase.upper())
 #frase.upper() Deixar em Maiúsculo
@@ -53,6 +53,9 @@ print(frase.capitalize())
 
 print(frase.title())
 #frase.title() Deixa cada primeira palavra em maiúsculo
+
+print(frase.upper().count('O'))
+#transforme em maiusculo e conta quanto 'O'
 
 #frase.strip() Remove os espaços desnecessários da direita e esquerda da string
 #frase.rstrip() Remove os espaços do lado direito da string

@@ -60,5 +60,11 @@ print(frase.upper().count('O'))
 #frase.strip() Remove os espaços desnecessários da direita e esquerda da string
 #frase.rstrip() Remove os espaços do lado direito da string
 #frase.lstrip() Remove os espaços do lado esquerdo da string
+
+print(frase.split())
 #frase.split() onde tiver espaços vai dividir, cada palavra recebe uma indexação nova, divide uma string em uma lista
 #'-'.join(frase) juntar os elementos da frase e coloca "-" em cada espaço
+
+dividido = frase.split()
+print(dividido[2][0])
+#cria um objeto, e divi em uma lista, em seguida mostra da lista o 2 e do 2 mostra 0

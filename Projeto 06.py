@@ -67,4 +67,4 @@ print(frase.split())
 
 dividido = frase.split()
 print(dividido[2][0])
-#cria um objeto, e divi em uma lista, em seguida mostra da lista o 2 e do 2 mostra 0
+#cria um objeto, e divide em uma lista, em seguida mostra da lista o 2 e do 2 mostra 0

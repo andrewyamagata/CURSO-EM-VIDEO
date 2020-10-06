@@ -26,3 +26,7 @@ print(frase[9:21:2])
 #frase.upper() Deixar em Maiúsculo
 #frase.lower() Deixar em Minúsculo
 #frase.capitalize() Deixar a primeira em maiúsculo e o resto em minúsculo
+#frase.title() Deixa cada primeira palavra em maiúsculo
+#frase.strip() Remove os espaços desnecessários da direita e esquerda da string
+#frase.rstrip() Remove os espaços do lado direito da string
+#frase.lstrip() Remove os espaços do lado esquerdo da string

@@ -30,3 +30,5 @@ print(frase[9:21:2])
 #frase.strip() Remove os espaços desnecessários da direita e esquerda da string
 #frase.rstrip() Remove os espaços do lado direito da string
 #frase.lstrip() Remove os espaços do lado esquerdo da string
+#frase.split() onde tiver espaços vai dividir, cada palavra recebe uma indexação nova, divide uma string em uma lista
+#'-'.join(frase) juntar os elementos da frase e coloca "-" em cada espaço

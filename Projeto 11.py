@@ -14,3 +14,12 @@ if  resultado == 0:
     print('O número {} é PAR'.format(numero))
 else:
     print('O número {} é ÍMPAR'.format(numero))
+
+#Custo de viagem
+dviagem = float(input('Qual a distância da viagem? '))
+print('Você está presete a começar uma viagem de {} Km'.format(dviagem))
+if  dviagem <= 200:
+    vpassagem = dviagem * 0.5
+else:
+    vpassagem = dviagem * 0.45
+print('E o preço da sua passagem será de R$ {:.2f}'.format(vpassagem))

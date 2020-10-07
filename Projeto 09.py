@@ -4,4 +4,10 @@ print(cid[:5].upper() == 'SANTO') #Verificar do inicio da string até o ponto 5,
 
 #Procurando uma string dentro de outra
 nome = str(input('Qual o seu nome completo? ')).strip()
-print('Seu nome tem Silva? {}'.format('silva' in nome.lower()))#'silva está em nome "tudo em minúsculo"
+print('Seu nome tem Silva? {}'.format('silva' in nome.lower()))#'silva está em nome "tudo em minúsculo" - in é um operador python
+
+#primeira e última ocorrência de uma string
+frase = str(input('Digite uma frase: ')).strip()
+print('A letra A aparece {} vezes'.format(frase.upper().count("A")))#frase colocada em maipusculo e conta quanto "A" tem
+print('A primeira letra A aparece na posição {}'.format(frase.upper().find("A") + 1))
+print('A última letra A aparece na posição {}'.format(frase.upper().rfind("A")+1))

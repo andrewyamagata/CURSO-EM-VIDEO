@@ -1,4 +1,5 @@
 #Condições (if - else)
+#fazendo em if - else
 tempo = int(input('Quantos anos tem o seu carro? '))
 if tempo <= 3:
     print('Seu carro está novinho, pense em trocar daqui {} anos'.format(3 - tempo ))

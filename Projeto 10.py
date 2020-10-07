@@ -11,3 +11,20 @@ print('----FIM----')
 tempo = int(input('Quantos anos tem seu carro? '))
 print('carro novo' if tempo <= 3 else 'carro velho')
 print('--END--')
+
+
+#Jogo da adivinhação
+import random #importar o random
+import time #importar tempo de espera
+print('-=' *30)
+print("Vou pensar em um número entre 0 e 5. Tente adivinhar... ")
+print('-=' *30)
+nescolhido = random.randint(0,5)
+npensado = int(input("Em que número eu pensei? "))
+print("Processando....")
+time.sleep(3)
+if nescolhido == npensado:
+    print("Parabéns! Você acertou o número!")
+else:
+    print("Erooooou! Oloco bixo, você errou!")
+print("Eu pensei no número {}".format(nescolhido))

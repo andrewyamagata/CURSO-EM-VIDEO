@@ -7,3 +7,22 @@ if ano % 4 == 0 and ano % 100 != 0 or ano % 400 == 0: #ocorrendo a cada quatro a
     print('O ano de {} é bissexto'.format(ano))
 else:
     print('O ano {} não é bissexto'.format(ano))
+
+#Maior e menor valor
+n1 = int(input('Primeiro valor: '))
+n2 = int(input('Segundo valor: '))
+n3 = int(input('Terceiro valor: '))
+#Verificando Menor
+menor = n1
+if n2 < n1 and n2 < n3:
+    menor = n2
+if n3 < n1 and n3 < n2:
+    menor = n3
+#Verificando Maior
+maior = n1
+if n2 > n1 and n2> n3:
+    maior = n2
+if n3 > n1 and n3 > n2:
+    maior = n3
+print('O menor valor é {}'.format(menor))
+print('O maior valor é {}'.format(maior))

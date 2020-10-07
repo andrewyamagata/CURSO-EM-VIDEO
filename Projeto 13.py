@@ -4,4 +4,5 @@ if  salario > 1250:
     nsalario =  salario * 1.1
 else:
     nsalario = salario * 1.15
-print('O aumento do seu salário será de R$ {:.2f}'.format(nsalario))
+variacao = nsalario - salario
+print('O seu salário de R$ {:.2f}, passará para R$ {:.2f}, aumento de R$ {:.2f}'.format(salario,nsalario,variacao))

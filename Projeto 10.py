@@ -1,4 +1,5 @@
 #Condições (if - else)
+#Condicional simples, só usar o if, sem a necessidade do else
 #fazendo em if - else
 tempo = int(input('Quantos anos tem o seu carro? '))
 if tempo <= 3:

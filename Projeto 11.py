@@ -23,3 +23,8 @@ if  dviagem <= 200:
 else:
     vpassagem = dviagem * 0.45
 print('E o preço da sua passagem será de R$ {:.2f}'.format(vpassagem))
+
+#Pode ser feito de outra maneira
+distancia = float(input('Qual a distância da viagem? '))
+preco = distancia * 0.5 if distancia <= 200 else distancia * 0.45 #if na linha (if simplificado)
+print('O preço da passagem será de R$ {:.2f}'.format(preco))

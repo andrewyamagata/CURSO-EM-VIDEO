@@ -7,7 +7,7 @@
 print('\033[0:33:44mOlá, Mundo!')
 print('\033[4:33:41m Olá Mundo\033[m')
 nome = 'Andrew'
-print('Olá, muito prazer {}{}{}'.format('\033[1:34m', nome,'\033[m'))
+print('Olá, muito prazer {}{}{}. Bem vindo'.format('\033[1:34m', nome,'\033[m'))
 #criando lista de cores
 cores = {'limpa':'\033[m', 'azul':'\033[34m', 'amarelo':'\033[33m'}
-print('Bom dia, {}{}{}'.format('amarelo',nome,'limpa'))
+print('Bom dia, {}{}{}. Bem vindo'.format(cores['amarelo'],nome,cores['limpa']))

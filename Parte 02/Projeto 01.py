@@ -22,4 +22,6 @@ else:
     print('-='*30)
     print('EMPRÉSTIMO NEGADO')
     print('-='*30)
-print('Para pagar a casa de R$ {:.2f}.\nCom o salário que recebe de R$ {:.2f}.\nEm {} anos, você deve pagar mensalmente R$ {}'.format(casa,salario,tempo,prestacao))
+print('Para pagar a casa de R$ {:.2f}.\nCom o salário que recebe de R$ {:.2f}.\nEm {} anos, você deve pagar mensalmente R$ {:.2f}'.format(casa,salario,tempo,prestacao))
+#\n quebra linha
+#end=' ' puxa a linha de baixo

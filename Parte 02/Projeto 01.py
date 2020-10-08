@@ -7,6 +7,19 @@ salario = float(input('Qual o valor do salário: R$ '))
 tempo = int(input('Quanto anos para pagar? '))
 salario30 = salario * 0.30
 prestacao = casa / (tempo * 12)
-#if
-
-print('Para pagar a casa de R$ {:.2f}, com o salário que recebe de R$ {:.2f}, em {} anos, você deve pagar mensalmente R$ {}'.format(casa,salario,tempo,prestacao))
+if salario30 >= prestacao and tempo >= 15:
+    print('Empréstimo não excede 30 % do seu sálario')
+    print('-='*30)
+    print('EMPRÉSTIMO APROVADO COM RESTRIÇÕES')
+    print('-='*30)
+elif salario30 >= prestacao and tempo < 15:
+    print('Empréstimo não excede 30 % e pagará em ',tempo)
+    print('-='*30)
+    print('EMPRÉSTIMO APROVADO SEM RESTRIÇÕES')
+    print('-='*30)
+else:
+    print('Empréstimo excede 30% do seu salário')
+    print('-='*30)
+    print('EMPRÉSTIMO NEGADO')
+    print('-='*30)
+print('Para pagar a casa de R$ {:.2f}.\nCom o salário que recebe de R$ {:.2f}.\nEm {} anos, você deve pagar mensalmente R$ {}'.format(casa,salario,tempo,prestacao))

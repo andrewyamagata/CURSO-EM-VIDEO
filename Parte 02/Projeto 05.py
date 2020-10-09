@@ -7,4 +7,4 @@ if  media >= 7:
 elif media < 5:
     print('Você foi REPROVADO com média {:.2f}'.format(media))
 else: # media >= 5 and <7    OU    7 > media >= 5
-    print('Você está de RECUPERAÇÃO com média {:.2f}'.format(media))
+    print('Você está em RECUPERAÇÃO com média {:.2f}'.format(media))

@@ -1,2 +1,2 @@
 #Estrutura de repetição for
-#estrutura de laço, repetição
+#estrutura de laço repetição

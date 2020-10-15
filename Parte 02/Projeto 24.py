@@ -1,0 +1,1 @@
+#Tratando vários valores

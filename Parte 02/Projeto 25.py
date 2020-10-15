@@ -1,7 +1,18 @@
 #maior e menor valores
-cont = 0
+opcao = "S"
+soma = cont = media = maior = menor = 0
 while opcao == "S":
     n = int(input("Digite um número: "))
-    opcao = str(input("Quer continuar [S/N]? ")).strip().upper()[0]#[]0 considera 1° letra
+    soma += n
     cont += 1
-print("Acabou")
+    if cont == 1:
+        maior = menor = n
+    else:
+        if n > maior:
+            maior = n
+        if n < menor:
+            menor = n
+    opcao = str(input("Quer continuar [S/N]? ")).strip().upper()[0]#[]0 considera 1° letra
+media = soma / cont
+print("Você digitou {} e a média foi {}".format(cont,media))
+print("O maior número foi {} e o menor número foi {}".format(maior,menor))

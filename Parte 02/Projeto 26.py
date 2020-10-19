@@ -1,0 +1,1 @@
+#Interrompendo repetições while

@@ -1,6 +1,6 @@
 #Jogo Par ou Ímpar
 from random import randint
-v = 0
+v = jogador = 0
 while True:
     jogador = int(input('Digite um valor: '))
     computador = randint(0,10)

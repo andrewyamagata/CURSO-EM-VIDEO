@@ -4,10 +4,19 @@ while cont != 10:
     print(cont, '-> ', end='')
     cont += 1
 print('Acabou')
+
 #nao ser infinito
+n = s = 0
+while True:
+    n = int(input('Digite um número: '))
+    if n == 999:
+        break
+    s += n
+print('A soma vale {}'.format(s))
 
 nome = 'Jose'
 idade = 33
-print('O %s tem %d anos. Forma 03' % (nome, idade)) #Python 2
+
 print(f'O {nome} tem {idade} anos. Forma 01') #Python 3.6+
-print('O {} tem {} anos. Forma 2', format(nome, idade)) #Python 3
+print('O {} tem {} anos. Forma 02'.format(nome, idade)) #Python 3
+print('O %s tem %d anos. Forma 03' % (nome, idade)) #Python 2

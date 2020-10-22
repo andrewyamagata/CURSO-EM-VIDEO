@@ -1,5 +1,5 @@
 #Vários números com flag
-n = c = s = 0
+c = s = 0
 while True:
     n = int(input("Digite um número: "))
     if n == 999:

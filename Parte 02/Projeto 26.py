@@ -9,11 +9,12 @@ print('Acabou')
 n = s = 0
 while True:
     n = int(input('Digite um número: '))
-    if n == 999:
+    if n == 999:    #se n for = 999, ele pausa e não conta
         break
     s += n
 print('A soma vale {}'.format(s))
 
+#f string
 nome = 'Jose'
 idade = 33
 

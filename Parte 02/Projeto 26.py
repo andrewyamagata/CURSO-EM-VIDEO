@@ -8,6 +8,6 @@ print('Acabou')
 
 nome = 'Jose'
 idade = 33
+print('O %s tem %d anos. Forma 03' % (nome, idade)) #Python 2
 print(f'O {nome} tem {idade} anos. Forma 01') #Python 3.6+
 print('O {} tem {} anos. Forma 2', format(nome, idade)) #Python 3
-print('O %s tem %d anos' % (nome, idade)) #Python 2

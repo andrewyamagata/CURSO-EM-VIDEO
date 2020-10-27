@@ -19,6 +19,8 @@ while True:
         resp = str(input('Quer continuar? [S/N] ')).strip().upper()[0]
     if resp == 'N':
         break
+print('-'*50)
 print('O total gasto foi de {:.2f}'.format(total))
 print(f'{contmais} produtos custam mais de R$ 10000,00')
+print(f'O menor preço de R$ {menor:.2f} é do {barato}')
 print('{:-^50}'.format('FIM DO PROGRAMA'))

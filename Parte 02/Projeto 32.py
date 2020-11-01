@@ -11,7 +11,8 @@ while True:
         total -= ced
         totced += 1
     else:
-        print(f'Total de {totced} cédulas de R$ {ced}')
+        if totced > 0:
+            print(f'Total de {totced} cédulas de R$ {ced}')
         if ced == 50:
             ced = 20
         elif ced == 20:
@@ -21,3 +22,6 @@ while True:
         totced = 0
         if total == 0:
             break
+print('='*30)
+print('{:^30}'.format('Volte Sempre'))
+print('='*30)

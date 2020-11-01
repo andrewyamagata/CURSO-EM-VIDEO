@@ -23,5 +23,5 @@ while True:
         if total == 0:
             break
 print('='*30)
-print('{:^30}'.format('Volte Sempre'))
+print('{:^30}'.format('Volte Sempre!'))
 print('='*30)

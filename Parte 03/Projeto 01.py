@@ -7,4 +7,7 @@ print(lanche[:2]) #vai do 0 até o 1, ignorando o ultimo elemente, neste caso o 
 print(lanche[1:3])#vai do 1 até o 2 , ignorando o ultimo elemento, neste caso o 3
 print(len(lanche))
 for c in lanche:
-    print(c)
+    print(f'Como {c}')
+
+for cont in range(0, len(lanche)):
+    print(f'Eu comi{lanche[cont]}')

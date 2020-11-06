@@ -1,4 +1,4 @@
-#Tuplas, variável composta
+#Tuplas, variável composta entre parenteses
 lanche = ('hambúrger', 'suco', 'pizza', 'pudim')
 print(lanche) #todos os itens
 print(lanche[3]) #item na posição 4 (item 3)

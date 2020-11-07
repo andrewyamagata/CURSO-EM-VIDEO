@@ -17,4 +17,11 @@ for pos, comida in enumerate(lanche):
     print(f'Eu vou comer {comida} na posição {pos}')
 print('-'*30)
 print(sorted(lanche)) #sorted, deixar em ordem
-print(lanche)
+print(lanche) #deixar na ordem natural
+print('-'*30)
+a = (2,5,4)
+b = (5,8,1,2)
+d = a + b
+print(d)
+print(d.count(5)) #quantas vezes o 5 aparece em d
+print(d.index(5)) #em que posição o 5 está, mostra o primeiro 5 que aparece

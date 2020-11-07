@@ -16,3 +16,5 @@ print('-'*30)
 for pos, comida in enumerate(lanche):
     print(f'Eu vou comer {comida} na posição {pos}')
 print('-'*30)
+print(sorted(lanche)) #sorted, deixar em ordem
+print(lanche)

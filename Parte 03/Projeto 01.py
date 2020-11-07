@@ -11,3 +11,6 @@ for c in lanche:
 
 for cont in range(0, len(lanche)):
     print(f'Eu comi{lanche[cont]}')
+
+for pos, comida in enumerate(lanche):
+    print(f'Eu vou comer {comida} na posição {pos}')

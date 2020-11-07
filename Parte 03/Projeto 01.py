@@ -10,7 +10,7 @@ for c in lanche:
     print(f'Como {c}')
 
 for cont in range(0, len(lanche)):
-    print(f'Eu comi{lanche[cont]}')
+    print(f'Eu comi {lanche[cont]} na posição {cont}')
 
 for pos, comida in enumerate(lanche):
     print(f'Eu vou comer {comida} na posição {pos}')

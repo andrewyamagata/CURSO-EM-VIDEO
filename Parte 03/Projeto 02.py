@@ -1,2 +1,8 @@
 #Número por extenso
-n = int(input('Digite um número: '))
+lista = ('zero', 'um', 'dois', 'três', 'quatro',
+         'cinco' , 'seis', 'sete' , 'oito', 'nove',
+         'dez', 'onze', 'doze', 'treze', 'catorze',
+         'quinze', 'dezesseis', 'dezessete', 'dezoito',
+         'dezenove', 'vinte')
+while True:
+    n = int(input('Digite um número entre 0 e 20:  '))

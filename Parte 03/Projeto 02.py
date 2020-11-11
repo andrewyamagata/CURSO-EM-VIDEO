@@ -9,3 +9,4 @@ while True:
     if 0 <= n <= 20:
         break
     print('Tente novamente. ', end='')
+print(f'Você digitou o número {lista[n]}')

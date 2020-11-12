@@ -10,4 +10,4 @@ while True:
         break
     print('Tente novamente. ', end='')
 print(f'Você digitou o número {lista[n]}')
-resp = str('Desejá continuar? [S/N] ').upper().[0]
+    resp = str('Desejá continuar? [S/N] ').upper().[0]

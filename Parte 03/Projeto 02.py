@@ -10,4 +10,7 @@ while True:
         break
     print('Tente novamente. ', end='')
 print(f'Você digitou o número {lista[n]}')
+resp  = ""
+while resp == "S"
     resp = str('Desejá continuar? [S/N] ').upper().[0]
+    

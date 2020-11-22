@@ -1,4 +1,5 @@
 #Número por extenso
+resp = ' '
 lista = ('zero', 'um', 'dois', 'três', 'quatro',
          'cinco' , 'seis', 'sete' , 'oito', 'nove',
          'dez', 'onze', 'doze', 'treze', 'catorze',
@@ -10,4 +11,6 @@ while True:
         break
     print('Tente novamente. ', end='')
 print(f'Você digitou o número {lista[n]}')
-    resp = str('Desejá continuar? [S/N] ').upper().[0]
+resp = str(input(('Desejá continuar? [S/N] ')).strip().upper()[0]
+    if resp == 'N':
+        break

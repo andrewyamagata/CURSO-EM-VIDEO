@@ -1,5 +1,5 @@
 #Número por extenso
-resp = ' '
+
 lista = ('zero', 'um', 'dois', 'três', 'quatro',
          'cinco' , 'seis', 'sete' , 'oito', 'nove',
          'dez', 'onze', 'doze', 'treze', 'catorze',
@@ -10,8 +10,9 @@ while True:
     if 0 <= n <= 20:
         break
     print('Tente novamente. ', end='')
-print(f'Você digitou o número {lista[n]}')
-while resp is not 'SN':
-    resp = str(input('Desejá continuar? [S/N] ')).strip().upper()[0]
-    if resp == 'N':
-        break
+    print(f'Você digitou o número {lista[n]}')
+    resp = ' '
+    while resp not in 'SN':
+        resp = str(input('Desejá continuar? [S/N] ')).strip().upper()[0]
+        if resp == 'N':
+            break

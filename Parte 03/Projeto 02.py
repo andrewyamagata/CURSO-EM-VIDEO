@@ -1,5 +1,5 @@
 #Número por extenso
-'''
+
 lista = ('zero', 'um', 'dois', 'três', 'quatro',
          'cinco' , 'seis', 'sete' , 'oito', 'nove',
          'dez', 'onze', 'doze', 'treze', 'catorze',
@@ -15,9 +15,9 @@ while True:
     while resp not in 'SN':
         resp = str(input('Desejá continuar? [S/N] ')).strip().upper()[0]
     if resp == 'N':
-        break'''
-'''lista = ['abc', ['d'], ['ef']]
-print(lista[2][0][0])'''
+        break
+lista = ['abc', ['d'], ['ef']]
+print(lista[2][0][0])
 
 class Fracao:
     def __init__(self, num, den):

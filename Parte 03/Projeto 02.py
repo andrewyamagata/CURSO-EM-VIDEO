@@ -19,7 +19,7 @@ while True:
 '''lista = ['abc', ['d'], ['ef']]
 print(lista[2][0][0])'''
 
-'''class Fracao:
+class Fracao:
     def __init__(self, num, den):
         self.num = num
         self.den = den
@@ -30,7 +30,7 @@ print(lista[2][0][0])'''
 f1 = Fracao(1, 2)
 f2 = Fracao(3, 4)
 print(f1)
-print(f2)'''
+print(f2)
 
 class HORARIO:
     def __init__(self, hora, minu, segundo):

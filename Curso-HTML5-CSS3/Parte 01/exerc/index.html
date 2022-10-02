@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon/Nishad2m8-Hologram-Dock-Recycle-Full.ico" type="image/x-icon">
+    <title>Meu primeiro exercício</title>
+</head>
+<body>
+    <h1>Olá, Mundo</h1>
+    <h2>Parágrafos e quebra de linha</h2>
+    <p>É possível
+        escrever um parágrafo
+        de qualquer jeito.
+        Basta colocar tudo no
+        meio do par de tags
+        &lt;p&gt; e &lt;/p&gt; <!--LESS THAN / GREATER THAN -->
+    </p>
+    <p>Se precisar quebar
+        o texto em um 
+        lugar específico <br> como esse,
+        você deve usar a tag &lt;br&gt;
+    </p>
+    <p>Vamos adicionar alguns símbolos especiais:
+        <br>
+        &reg;
+        &copy;
+        &trade;
+    </p>
+    <p>Vamos adicionar alguns emoji:
+        <br>
+        &#x1F596; <!--preceder com &#x + codigos https://emojipedia.org/-->
+    </p>
+    <h1>Testando imagens</h1>
+    <img src="imagem/logo150.png" alt="logo html">
+    <img src="imagem/logo-css-3-150.png" alt="logo css">
+    <p>Também é possivel carregar imanges externas</p>
+    <!--precisa redimensionar-->
+    <!--<img src="https://thumbs.dreamstime.com/z/ilustra%C3%A7%C3%A3o-do-logotipo-javascript-em-fundo-branco-editorial-tela-branca-para-download-banner-vetorial-jpeg-208329460.jpg" alt="logo JavaScript">-->
+    <h1>Negrito</h1>
+    <p>Temos o termo em <b>negrito</b> (forma)</p>
+    <p>Temos o termo em <strong>destaque</strong> (sentido)</p>
+    <h1>Itálico</h1>
+    <p>Temos o termo em <i>itálico</i> (forma)</p>
+    <p>Temos o termo em <em>ênfase</em> (sentido)</p>
+    <h2>Texto marcado</h2>
+    <p>Podemos criar <mark style="background-color:limegreen;">um texto marcado</mark> com a tag MARK.</p>
+    <p>Outro <mark style="background-color:yellow;">texto com marcação</mark></p>
+    <p>Mudar o tamanho do texto para <big>grande</big> e outra para <small>pequeno</small></p>
+    <h2>Texto deletado</h2>
+    <p>Podemos marcar <del>um texto como excluído</del> para indicar que ele deve ser lido, mas não considerado</p>
+    <h2>Texto incluído</h2>
+    <p>Podemos <ins>marca um texto como inserido</ins> para dar ênfase</p>
+    <p>Existe tambem o <u>sublinhado</u> com a tag U (não semântica)</p>
+    <h2>Texto sobrescrito</h2>
+    <p>Usando tag sup temos x<sup>20</sup>+3</p>
+    <h2>Texto subscrito</h2>
+    <p>Usando a tag sub temos H<sub>2</sub>0</p>
+    <h1>-Outras formatações</h1>
+    <h2>Código-fonte</h2>
+    <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript.</p>
+    <pre>
+        <code>
+            num = int(input('Digite um número'))
+            if num % 2 == 0:
+                print(f'O número {num} é PAR')
+            else:
+                print(f'O número {num} é ÍMPAR')
+            print('Fim fo programa')
+        </code>
+    </pre>
+    <h2>Citações simples</h2>
+    <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido</q></p>
+    <h2>Citações completas</h2>
+    <p>Segundo Maurício Samy Silva, Fundamentos de HTML5 e CSS3</p>
+    <blockquote cite="https://www.google.com.br/books/edition/Fundamentos_de_HTML5_e_CSS3/2iPYCQAAQBAJ?hl=pt-BR&gbpv=0">
+        Mesmo sem conhecimento prévio, com este livro o leitor será capaz de:
+        Criar um código totalmente semântico empregando os elementos da linguagem HTML5.
+        Usar os atributos da linguagem HTML5 para criar elementos gráficos ricos no desenvolvimento de aplicações web.
+    </blockquote>
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando!</p>
+    <h2>Texto invertido</h2>
+    <p><bdo dir="rtl">Estou adorando criar coisas em HTML 'direita para esquerda'.</bdo></p>
+    <h1>Trabalahndo com lista</h1>
+    <h2>Lista ordenada</h2>
+    <ol type="1" start="3">
+        <li>abacate</li>
+        <li>maça</li>
+        <li>mamão</li>
+        <li>pera</li>
+    </ol>
+    <h2>Lista não ordenada</h2>
+    <ul type="circle"><!--disc/circle/square-->
+        <li>pão</li>
+        <li>ovo</li>
+        <li>carne</li>
+        <li>frango</li>
+    </ul>
+    <h2>Juntando listas</h2>
+    <ol>
+        <li>Frutas</li>
+        <ol>    
+            <li>abacate</li>
+            <li>maça</li>
+            <li>mamão</li>
+            <li>pera</li>
+        </ol>
+        <li>Alimentos</li>
+            <ul>
+                <li>pão</li>
+                <li>ovo</li>
+                <li>carne</li>
+                <li>frango</li>
+            </ul>
+    </ol>
+    <h2>Lista de Definição</h2>
+    <dl>
+        <dt>HTML</dt> <!--termo-->
+        <dd>Linguagem de marcação para a criação do conteúdo de um site</dd> <!--definição-->
+        <dt>CSS</dt>
+        <dd>Linguafem de marcação para a criação do design de um site</dd>
+    </dl>
+    <h2>Usando links externos</h2>
+    <p>Você pode acessar o repositório no <a href="https://github.com/andrewyamagata" target="_blank" rel="external">GitHub</a></p> <!-- abre uma nova guia-->
+    <h2>Usando links internos</h2>
+    <p>Esta é a primeira página. Para acessar a <a href="pag02.html" rel="next">segunda</a> página</p><!--ctrl + space, mesma pag do index-->
+</html>
